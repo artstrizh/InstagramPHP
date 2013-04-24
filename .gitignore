@@ -1,0 +1,65 @@
+# Toolstrap2
+src/public/css/style.css
+src/public/images/bg-body.png
+src/public/images/logo-g.png
+src/public/images/logo-g@2x.png
+src/public/js/lib/toolstrap2*.js
+src/public/sass/lib/Groupon-Icon-Font.scss
+src/public/css/fonts/Groupon.*
+
+# Wordpress
+# /src/wp-config.php
+# /src/public/wp-config.php
+# /src/public/blogs.dir/*
+# /src/public/uploads/*
+# /src/public/blogs.dir/*
+# /src/public/upgrade/*
+# /src/public/cache/*
+# /src/public/media
+# /src/public/sitemap.xml
+# /src/public/sitemap.xml.gz
+
+
+#############################
+
+# Load Balancer
+/src/public/heartbeat.txt
+
+# Development
+/build
+/data
+/logs
+
+# Dependencies
+/vendor
+
+# OS / IDE
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*.sass-cache
+*~
+.DS_Store
+.DS_STORE
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
+Thumbs.db
+.svn
+.CVS
+.idea
+
+# Logging
+nohup.out
+*.log
+

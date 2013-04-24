@@ -1,0 +1,33 @@
+{
+    "hash": "dbecc982e1ba7b6b9bb987b998ab033a",
+    "packages": [
+        {
+            "name": "maparicio/Groupon-Icon-Font",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github:maparicio/Groupon-Icon-Font.git",
+                "reference": "2f9a4edc148225c650578c69bdaf3ec2ffc06c81"
+            },
+            "type": "library"
+        },
+        {
+            "name": "maparicio/toolstrap2",
+            "version": "2.0.1",
+            "source": {
+                "type": "git",
+                "url": "git@github:maparicio/toolstrap2.git",
+                "reference": "f52a08e182415ec4f2cee9be133f265cc6a4e0f0"
+            },
+            "type": "library"
+        }
+    ],
+    "packages-dev": null,
+    "aliases": [
+
+    ],
+    "minimum-stability": "stable",
+    "stability-flags": [
+
+    ]
+}
