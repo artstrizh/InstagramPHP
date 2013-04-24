@@ -22,6 +22,9 @@ use Composer\Composer;
 class ToolstrapInstaller
 {
 
+    protected static $base = "public";
+
+
     public static function postInstall(Event $event)
     {
         self::compileDependencies($event->getComposer());
@@ -41,7 +44,7 @@ class ToolstrapInstaller
     {
         echo "\nCompiling Toolstrap2 Dependencies...";
 
-        $basepath = realpath(__DIR__ . "/../../../public");
+        $basepath = realpath(__DIR__ . "/../../../" . self::$base);
         $vendor = realpath(__DIR__ . "/../../../../" . $composer->getConfig()->get('vendor-dir'));
 
 
@@ -72,7 +75,7 @@ class ToolstrapInstaller
     {
         echo "\nCompiling Toolstrap2 JavaScript...";
 
-        $basepath = realpath(__DIR__ . "/../../../public");
+        $basepath = realpath(__DIR__ . "/../../../" . self::$base);
         $vendor = realpath(__DIR__ . "/../../../../" . $composer->getConfig()->get('vendor-dir'));
 
 
