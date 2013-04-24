@@ -1,6 +1,4 @@
-Communication Engineering Bootstrap
-===================================
+Communication Engineering Application
+=====================================
 
-Please see the project pages for this at:
-
-[https://github.groupondev.com/pages/comm-eng/bootstrap](https://github.groupondev.com/pages/comm-eng/bootstrap)
+This project is based on the [Communication Engineering Bootstrap](https://github.groupondev.com/pages/comm-eng/bootstrap).
