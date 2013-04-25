@@ -48,7 +48,7 @@
         "ext-openssl":                 "*",
         "ext-pcre":                    "*",
         "ext-zip":                     "*",
-        "ircmaxell/password_compat":   "1.0.*",
+        "ircmaxell/password-compat":   "1.0.*",
         "maparicio/toolstrap2":        "2.0.*",
         "maparicio/Groupon-Icon-Font": "2.0.*"
     },

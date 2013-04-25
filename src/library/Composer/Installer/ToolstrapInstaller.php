@@ -65,7 +65,7 @@ class ToolstrapInstaller
         copy($vendor . "/maparicio/toolstrap2/images/logo-g.png", $basepath . "/images/logo-g.png");
         copy($vendor . "/maparicio/toolstrap2/images/logo-g@2x.png", $basepath . "/images/logo-g@2x.png");
 
-        copy($vendor . "/maparicio/Groupon-Icon-Font/style.css", $basepath . "/sass/lib/Groupon-Icon-Font.scss");
+        copy($vendor . "/maparicio/Groupon-Icon-Font/style.css", $basepath . "/sass/lib/_Groupon-Icon-Font.scss");
 
 
         echo "Done.\n";
