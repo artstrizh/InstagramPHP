@@ -17,6 +17,18 @@
         {
             "type":    "package",
             "package": {
+                "name":    "zurb-foundation",
+                "version": "4.0.0",
+                "source":  {
+                    "type":      "git",
+                    "url":       "git@github.com:zurb/foundation.git",
+                    "reference": "59a12a44ca6710d95ba0019de6ad58e859800155"
+                }
+            }
+        },
+        {
+            "type":    "package",
+            "package": {
                 "name":    "maparicio/toolstrap2",
                 "version": "2.0.1",
                 "source":  {
@@ -50,7 +62,8 @@
         "ext-zip":                     "*",
         "ircmaxell/password-compat":   "1.0.*",
         "maparicio/toolstrap2":        "2.0.*",
-        "maparicio/Groupon-Icon-Font": "2.0.*"
+        "maparicio/Groupon-Icon-Font": "2.0.*",
+        "zurb-foundation":             "4.*"
     },
     "require-dev":       {
         "ext-xdebug":      "*",

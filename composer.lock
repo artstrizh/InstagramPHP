@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "678b4db2bf580e8ec67b048bed2cb25d",
+    "hash": "c112c1b2766d0bbbe42f09323445da86",
     "packages": [
         {
             "name": "ircmaxell/password-compat",
@@ -54,6 +54,16 @@
                 "type": "git",
                 "url": "git@github:maparicio/toolstrap2.git",
                 "reference": "f52a08e182415ec4f2cee9be133f265cc6a4e0f0"
+            },
+            "type": "library"
+        },
+        {
+            "name": "zurb-foundation",
+            "version": "4.0.0",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:zurb/foundation.git",
+                "reference": "59a12a44ca6710d95ba0019de6ad58e859800155"
             },
             "type": "library"
         }
