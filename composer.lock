@@ -3,15 +3,15 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "c112c1b2766d0bbbe42f09323445da86",
+    "hash": "571872d99b48491aaf69b3cd2c89c8dc",
     "packages": [
         {
             "name": "ircmaxell/password-compat",
-            "version": "1.0.0",
+            "version": "1.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:ircmaxell/password_compat.git",
-                "reference": "v1.0.0"
+                "reference": "v1.0.3"
             },
             "type": "library",
             "autoload": {
@@ -35,7 +35,7 @@
                 "hashing",
                 "password"
             ],
-            "time": "2013-01-14 16:49:31"
+            "time": "2013-04-30 19:58:08"
         },
         {
             "name": "maparicio/Groupon-Icon-Font",
@@ -54,16 +54,6 @@
                 "type": "git",
                 "url": "git@github:maparicio/toolstrap2.git",
                 "reference": "f52a08e182415ec4f2cee9be133f265cc6a4e0f0"
-            },
-            "type": "library"
-        },
-        {
-            "name": "zurb-foundation",
-            "version": "4.0.0",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:zurb/foundation.git",
-                "reference": "59a12a44ca6710d95ba0019de6ad58e859800155"
             },
             "type": "library"
         }
