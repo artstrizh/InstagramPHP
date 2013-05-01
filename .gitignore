@@ -7,19 +7,6 @@ src/public/js/lib/toolstrap2*.js
 src/public/sass/lib/_Groupon-Icon-Font.scss
 src/public/css/fonts/Groupon.*
 
-# Wordpress
-# /src/wp-config.php
-# /src/public/wp-config.php
-# /src/public/blogs.dir/*
-# /src/public/uploads/*
-# /src/public/blogs.dir/*
-# /src/public/upgrade/*
-# /src/public/cache/*
-# /src/public/media
-# /src/public/sitemap.xml
-# /src/public/sitemap.xml.gz
-
-
 #############################
 
 # Load Balancer
