@@ -1,0 +1,56 @@
+/*
+Theme Name: Communications Engineering Bootstrap
+Theme URI: https://
+Author: Communication Engineering, Groupon North America
+Author URI: https://www.groupon.com/
+Description: Bootstrap Styles for the Groupon Communications Engineering Sites
+Version: 1.0
+License: Not for use outside of the Groupon Communications Engineering team without explicit permission.
+*/
+
+/* ------ R E S E T ------ */
+@import "reset/normalize";
+/* ------ E N D - R E S E T ------ */
+
+// ----- O P T I O N A L - L I B R A R I E S -----
+// Groupon Toolstrap2
+// This includes 'Normalize'. Comment out the normalize/reset listed above, if using this library.
+//@import "../../../vendor/maparicio/toolstrap2/sass/toolstrap";
+
+// ------ C O M P A S S - M I X I N S------
+// Compass compiler settings can be adjusted in the /base/base.rb file.
+// To install compass, follow the instructions here: http://compass-style.org/install/
+// To start the compiler, open terminal, cd to /bootstrap/base, and type 'compass watch '
+@import "compass";
+
+
+
+// ----- I C O N S -----
+@import "icons/*.png";
+@include all-icons-sprites;
+// Groupon Icon Font
+@import "lib/Groupon-Icon-Font";
+
+// ----- G R I D (Zurb Foundation) -----
+//@import "../../../vendor/zurb-foundation/scss/foundation/variables";
+//@import "../../../vendor/zurb-foundation/scss/foundation/components/global";
+//@import "../../../vendor/zurb-foundation/scss/foundation/components/grid";
+
+// ----- M I X I N S -----
+@import "mixins/rems";
+@import "mixins/css3";
+
+// ----- C O N F I G -----
+// Project-wide settings can be adjusted here:
+@import "base/base";
+
+// ----- P A R T I A L S -----
+@import "partials/layouts";
+@import "partials/buttons";
+
+
+/*
+@todo - Add Grid
+@todo - Add Basic Layouts
+@todo - Add base Groupon Button Styles
+*/

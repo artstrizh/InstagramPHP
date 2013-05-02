@@ -1,0 +1,49 @@
+// Helper Classes
+
+.bold {
+  font-weight: $font-weight-bold;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+.no-margin-top {
+  @include margin-top(0);
+}
+
+.no-margin-bottom {
+  @include margin-bottom(0);
+}
+
+.no-margin {
+  @include margin(0, 0, 0, 0);
+}
+
+.no-space {
+  @extend .no-margin-bottom;
+}
+
+.spacer {
+  height: $margin-value;
+}
+
+.float-bottom{
+  position:absolute;
+  bottom: 10px;
+}

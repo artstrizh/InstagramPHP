@@ -1,0 +1,26 @@
+<phpunit colors="true" stopOnError="false" bootstrap="./tests/bootstrap.php" backupStaticAttributes="true">
+    <testsuites>
+        <testsuite name="Communication Engineering Application Full Suite">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./src/library</directory>
+            <exclude>
+                <!--
+                <file>./src/library/Groupon/Central/Daemon.php</file>
+                <directory suffix=".php">./src/library/Groupon/Central/Entity/Proxy</directory>
+                -->
+            </exclude>
+        </whitelist>
+    </filter>
+    <logging>
+        <log type="coverage-html" target="build/coverage" title="Communication Engineering Application API"
+             charset="UTF-8" yui="true" highlight="true"
+             lowUpperBound="35" highLowerBound="70"/>
+        <log type="coverage-clover" target="build/logs/clover.xml"/>
+        <log type="junit" target="build/logs/junit.xml"
+             logIncompleteSkipped="false"/>
+    </logging>
+</phpunit>

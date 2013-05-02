@@ -1,0 +1,69 @@
+// Typography Variables
+$font-family-primary:       "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+$font-family-headings:      "Open Sans"; // @TODO - Finish Open Sans Family
+$font-family-secondary:     ""; // @TODO  - If needed
+
+$font-weight-light: 100;
+$font-weight:       400;
+$font-weight-bold:  700;
+
+$base-font-size: 1;
+
+// Typography Base Styles:
+h1, h2, h3, h4, h5, h6, p, li, hr, button {
+  @include margin-top(0);
+  @include margin-bottom($margin-value);
+}
+
+h1 {
+  color: $col-h1;
+  font-weight: $font-weight;
+  @include font-size(28);
+}
+
+h2 {
+  color: $col-h2;
+  font-weight: $font-weight;
+  @include font-size(28);
+}
+
+h3 {
+  color: $col-h3;
+  font-style: italic;
+  font-weight: $font-weight;
+  @include font-size(21);
+}
+
+h4 {
+  color: $col-h4;
+  font-weight: $font-weight;
+  @include font-size(18);
+}
+
+h5 {
+  color: $col-h5;
+  font-weight: $font-weight-bold;
+  @include font-size(14);
+}
+
+h6 {
+  color: $col-h6;
+  font-style: italic;
+  @include font-size(14);
+}
+
+p {
+  color: inherit;
+
+  @include font-size(14);
+  @include padding(0, 0, 0, 0);
+
+  &.big {
+    @include font-size(18);
+  }
+
+  &.subtitle {
+    @extend .big;
+    @include margin-top(-$margin-value);
+  }
+}

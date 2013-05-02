@@ -1,0 +1,53 @@
+# Toolstrap2
+src/public/css/style.css
+src/public/images/bg-body.png
+src/public/images/logo-g.png
+src/public/images/logo-g@2x.png
+src/public/js/lib/toolstrap2*.js
+src/public/sass/lib/_Groupon-Icon-Font.scss
+src/public/css/fonts/Groupon.*
+
+#############################
+
+# Load Balancer
+/src/public/heartbeat.txt
+
+# Development
+/build
+/data
+/logs
+
+# Dependencies
+/vendor
+
+# OS / IDE
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*.sass-cache
+*~
+.DS_Store
+.DS_STORE
+.cache
+.project
+.settings
+.tmproj
+*.esproj
+*.sublime-project
+*.sublime-workspace
+nbproject
+Thumbs.db
+.svn
+.CVS
+.idea
+origin
+
+# Logging
+nohup.out
+*.log
+

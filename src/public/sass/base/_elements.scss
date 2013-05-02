@@ -1,0 +1,15 @@
+html, body {
+
+  @include padding(0,0,0,0);
+  @include margin(0,0,0,0);
+
+  height: 100%;
+
+  font-family: $font-family-primary;
+  font-weight: $font-weight;
+
+  background: $col-bg;
+  color: $col-text;
+
+}
+
