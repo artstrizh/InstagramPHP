@@ -1,56 +1,17 @@
 {
-    "name":              "comm-eng/bootstrap",
-    "description":       "Communications Engineering Bootstrap",
-    "keywords":          ["groupon"],
+    "name":              "andrewvaughan/InstagramSubscriber",
+    "description":       "Instagram Subscription Library for PHP",
+    "keywords":          ["instagram", "subscription", "php"],
     "homepage":          "https://github.groupondev.com/pages/comm-eng",
-    "license":           "proprietary",
+    "license":           "BSD-3-Clause",
     "support":           {
-        "source": "https://github.groupondev.com/comm-eng/",
-        "issues": "https://github.groupondev.com/comm-eng/",
-        "wiki":   "https://github.groupondev.com/comm-eng/"
+        "source": "https://github.com/andrewvaughan/InstagramSubscriber",
+        "issues": "https://github.com/andrewvaughan/InstagramSubscriber/issues",
+        "irc":    "irc://irc.freenode.org/deprecatedco"
     },
-    "repositories":      [
-        {
-            "type": "git",
-            "url":  "git@github.com:ircmaxell/password_compat.git"
-        },
-        {
-            "type":    "package",
-            "package": {
-                "name":    "maparicio/toolstrap2",
-                "version": "2.0.1",
-                "source":  {
-                    "type":      "git",
-                    "url":       "git@github:maparicio/toolstrap2.git",
-                    "reference": "f52a08e182415ec4f2cee9be133f265cc6a4e0f0"
-                }
-            }
-        },
-        {
-            "type":    "package",
-            "package": {
-                "name":    "maparicio/Groupon-Icon-Font",
-                "version": "2.0.1",
-                "source":  {
-                    "type":      "git",
-                    "url":       "git@github:maparicio/Groupon-Icon-Font.git",
-                    "reference": "2f9a4edc148225c650578c69bdaf3ec2ffc06c81"
-                }
-            }
-        }
-    ],
     "minimum-stability": "stable",
     "require":           {
-        "php":                         ">=5.4.0",
-        "ext-apc":                     "*",
-        "ext-curl":                    "*",
-        "ext-mysql":                   "*",
-        "ext-openssl":                 "*",
-        "ext-pcre":                    "*",
-        "ext-zip":                     "*",
-        "ircmaxell/password-compat":   "1.0.*",
-        "maparicio/toolstrap2":        "2.0.*",
-        "maparicio/Groupon-Icon-Font": "2.0.*"
+        "php":                         ">=5.3.2"
     },
     "require-dev":       {
         "ext-xdebug":      "*",
@@ -58,11 +19,7 @@
     },
     "autoload":          {
         "psr-0": {
-            "Composer\\Installer": "src/library"
+            "DeprecatedCo\\InstagramSubscriber": "src/library"
         }
-    },
-    "scripts":           {
-        "post-update-cmd":  "Composer\\Installer\\ToolstrapInstaller::postUpdate",
-        "post-intsall-cmd": "Composer\\Installer\\ToolstrapInstaller::postInstall"
     }
 }
